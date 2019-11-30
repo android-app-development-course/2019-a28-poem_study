@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ir.mhkz.loginandregister.SettingPlanActivity"
+    android:orientation="vertical"
+    android:background="@drawable/planbg">
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="  制定计划"
+        android:textColor="@color/grey_600"
+        android:textSize="25dp"
+        android:gravity="left|center"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view1"
+        style="@style/CardView.Light"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/type" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:text="诗词类型"
+                    android:textColor="#7f8c8d"
+                    android:textSize="18dp" />
+
+                <com.jaredrummler.materialspinner.MaterialSpinner
+                    android:id="@+id/TypeSpinner"
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="16dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    app:ms_background_color="#ffffff"
+                    app:ms_text_color="#2f3542"
+                    app:ms_arrow_tint="#2f3542"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view2"
+        style="@style/CardView.Light"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/day" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:text="计划天数"
+                    android:textColor="#7f8c8d"
+                    android:textSize="18dp" />
+
+                <com.jaredrummler.materialspinner.MaterialSpinner
+                    android:id="@+id/DaySpinner"
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="16dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    app:ms_background_color="#ffffff"
+                    app:ms_text_color="#2f3542"
+                    app:ms_arrow_tint="#2f3542"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view3"
+        style="@style/CardView.Light"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/quality" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:text="每日计划"
+                    android:textColor="#7f8c8d"
+                    android:textSize="18dp" />
+
+                <com.jaredrummler.materialspinner.MaterialSpinner
+                    android:id="@+id/NumberSpinner"
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="16dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    app:ms_background_color="#ffffff"
+                    app:ms_text_color="#2f3542"
+                    app:ms_arrow_tint="#2f3542"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <com.spark.submitbutton.SubmitButton
+        android:layout_marginTop="20dp"
+        android:id="@+id/submitButton"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:text="确定"
+        android:textColor="@color/gray"
+        android:textSize="18dp"
+        app:sub_btn_background="@color/white"
+        app:sub_btn_duration="3000"
+        app:sub_btn_line_color="#2ecc71"
+        app:sub_btn_ripple_color="#2ecc71"
+        app:sub_btn_tick_color="@color/white" />
+</LinearLayout>
