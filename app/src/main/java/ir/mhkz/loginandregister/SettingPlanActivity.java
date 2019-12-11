@@ -12,10 +12,7 @@ import ir.mhkz.loginandsignup.R;
 
 public class SettingPlanActivity extends AppCompatActivity {
     private SubmitButton btn_sub;
-<<<<<<< HEAD
     private String str1,str2,str3,str4;
-=======
->>>>>>> 15375368d072effab23c61aa0e97bb956470285b
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,8 +22,7 @@ public class SettingPlanActivity extends AppCompatActivity {
     }
     public void init(){
         btn_sub=findViewById(R.id.submitButton);
-<<<<<<< HEAD
-        final MaterialSpinner typespinner = findViewById(R.id.TypeSpinner);
+        MaterialSpinner typespinner = findViewById(R.id.TypeSpinner);
         typespinner.setItems("小学", "初中", "高中");
         typespinner.setOnItemSelectedListener(new MaterialSpinner.OnItemSelectedListener<String>() {
 
@@ -61,26 +57,14 @@ public class SettingPlanActivity extends AppCompatActivity {
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent();
-                intent.setClass(SettingPlanActivity.this,BottomNavigationActivity.class);
-                intent.putExtra("type",str1);
-                intent.putExtra("day",str2);
-                intent.putExtra("number",str3);
-                intent.putExtra("sum",str4);
-                finish();
-=======
-        MaterialSpinner typespinner = findViewById(R.id.TypeSpinner);
-        typespinner.setItems("小学", "初中", "高中");
-        MaterialSpinner dayspinner = findViewById(R.id.DaySpinner);
-        dayspinner.setItems("15天", "30天", "60天");
-        MaterialSpinner numberspinner = findViewById(R.id.NumberSpinner);
-        numberspinner.setItems("5首", "10首", "20首");
-        btn_sub.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent=new Intent(SettingPlanActivity.this,BottomNavigationActivity.class);
->>>>>>> 15375368d072effab23c61aa0e97bb956470285b
+                Intent intent = new Intent();
+                intent.setClass(SettingPlanActivity.this, BottomNavigationActivity.class);
+                intent.putExtra("type", str1);
+                intent.putExtra("day", str2);
+                intent.putExtra("number", str3);
+                intent.putExtra("sum", str4);
                 startActivity(intent);
+                finish();
             }
         });
     }

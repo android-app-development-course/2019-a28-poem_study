@@ -12,10 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-<<<<<<< HEAD
 import android.widget.TextView;
-=======
->>>>>>> 15375368d072effab23c61aa0e97bb956470285b
 
 import com.spark.submitbutton.SubmitButton;
 
@@ -27,10 +24,7 @@ public class MainFragment extends Fragment {
     private Button btn_plan;
     private DrawerLayout mDrawerLayout = null ;
     private Button Head_btn;
-<<<<<<< HEAD
     private TextView tv_type,tv_day,tv_number,tv_sum,tv_number1,tv_number2;
-=======
->>>>>>> 15375368d072effab23c61aa0e97bb956470285b
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
@@ -71,7 +65,6 @@ public class MainFragment extends Fragment {
 
             }
         });
-<<<<<<< HEAD
 
         tv_type=mView.findViewById(R.id.type);
         tv_day=mView.findViewById(R.id.day);
@@ -90,7 +83,6 @@ public class MainFragment extends Fragment {
         tv_sum.setText(sum);
         tv_number1.setText(number);
         tv_number2.setText(number);
-=======
->>>>>>> 15375368d072effab23c61aa0e97bb956470285b
+
     }
 }

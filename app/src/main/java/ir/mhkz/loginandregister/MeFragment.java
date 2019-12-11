@@ -7,25 +7,15 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-<<<<<<< HEAD
 import android.widget.ImageButton;
-=======
-import android.widget.Button;
->>>>>>> 15375368d072effab23c61aa0e97bb956470285b
 
 import ir.mhkz.loginandsignup.R;
 
 public class MeFragment extends Fragment implements View.OnClickListener{
     private View mView;
-<<<<<<< HEAD
     private ImageButton primary_btn;
     private ImageButton juniormiddle_btn;
     private ImageButton high_btn;
-=======
-    private Button primary_btn;
-    private Button juniormiddle_btn;
-    private Button high_btn;
->>>>>>> 15375368d072effab23c61aa0e97bb956470285b
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
@@ -35,13 +25,8 @@ public class MeFragment extends Fragment implements View.OnClickListener{
     }
     public void setView(){
         primary_btn = mView.findViewById(R.id.Primary_btn);
-<<<<<<< HEAD
         juniormiddle_btn = mView.findViewById(R.id.JuniorMiddle_btn);
-        high_btn =mView.findViewById(R.id.High_btn);
-=======
-        juniormiddle_btn = (Button)mView.findViewById(R.id.JuniorMiddle_btn);
-        high_btn = (Button)mView.findViewById(R.id.High_btn);
->>>>>>> 15375368d072effab23c61aa0e97bb956470285b
+        high_btn = mView.findViewById(R.id.High_btn);
         primary_btn.setOnClickListener(this);
         juniormiddle_btn.setOnClickListener(this);
         high_btn.setOnClickListener(this);

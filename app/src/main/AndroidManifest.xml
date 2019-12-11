@@ -10,27 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
-<<<<<<< HEAD
             <!--<intent-filter>-->
                 <!--<action android:name="android.intent.action.MAIN" />-->
 
                 <!--<category android:name="android.intent.category.LAUNCHER" />-->
             <!--</intent-filter>-->
-=======
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
->>>>>>> 15375368d072effab23c61aa0e97bb956470285b
         </activity>
         <activity android:name="ir.mhkz.loginandregister.LoginActivity" />
         <activity android:name="ir.mhkz.loginandregister.RegisterActivity" />
         <activity android:name="ir.mhkz.loginandregister.BottomNavigationActivity" />
-<<<<<<< HEAD
-=======
         <activity android:name="ir.mhkz.loginandregister.MainFragmentActivity" />
->>>>>>> 15375368d072effab23c61aa0e97bb956470285b
         <activity android:name="ir.mhkz.loginandregister.StudyActivity" />
         <activity android:name="ir.mhkz.loginandregister.SettingPlanActivity" />
         <activity android:name="ir.mhkz.loginandregister.BankedCloze" />
@@ -39,8 +28,9 @@
         <activity android:name="ir.mhkz.loginandregister.FeedbackActivity" />
         <activity android:name="ir.mhkz.loginandregister.SettingActivity" />
         <activity android:name="ir.mhkz.loginandregister.AboutActivity" />
-<<<<<<< HEAD
-        <activity android:name="ir.mhkz.loginandregister.JoinActivity" />
+        <activity android:name="ir.mhkz.loginandregister.JoinActivity">
+
+        </activity>
         <activity android:name="ir.mhkz.loginandregister.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -48,9 +38,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-=======
-        <activity android:name="ir.mhkz.loginandregister.JoinActivity"></activity>
->>>>>>> 15375368d072effab23c61aa0e97bb956470285b
+
     </application>
 
 </manifest>

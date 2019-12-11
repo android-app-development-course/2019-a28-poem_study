@@ -18,9 +18,7 @@
     <color name="solid_four">#e67e22</color>
     <color name="solid_five">#3498db</color>
     <color name="grey">#34495e</color>
-<<<<<<< HEAD
     <color name="splashbackground">#3498db</color>
     <color name="splashtitle">#ecf0f1</color>
-=======
->>>>>>> 15375368d072effab23c61aa0e97bb956470285b
+
 </resources>

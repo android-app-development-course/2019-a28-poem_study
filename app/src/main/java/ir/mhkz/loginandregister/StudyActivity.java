@@ -73,10 +73,6 @@ public class StudyActivity extends AhoyOnboarderActivity {
     @Override
     public void onFinishButtonPressed() {
         Intent intent=new Intent(StudyActivity.this, BottomNavigationActivity.class);
-<<<<<<< HEAD
-        finish();
-=======
->>>>>>> 15375368d072effab23c61aa0e97bb956470285b
         startActivity(intent);
     }
 }

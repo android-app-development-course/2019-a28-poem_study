@@ -10,8 +10,8 @@ import com.viksaa.sssplash.lib.model.ConfigSplash;
 import ir.mhkz.loginandsignup.MainActivity;
 import ir.mhkz.loginandsignup.R;
 
-public class SplashActivity extends AwesomeSplash {
 
+public class SplashActivity extends AwesomeSplash {
     @Override
     public void initSplash(ConfigSplash configSplash) {
         //Customize Circular Reveal
@@ -23,7 +23,7 @@ public class SplashActivity extends AwesomeSplash {
         //Choose LOGO OR PATH; if you don't provide String value for path it's logo by default
 
         //Customize Logo
-        configSplash.setLogoSplash(R.mipmap.demo); //or any other drawable
+        configSplash.setLogoSplash(R.mipmap.ic_launcher); //or any other drawable
         configSplash.setAnimLogoSplashDuration(1000); //int ms
         configSplash.setAnimLogoSplashTechnique(Techniques.Bounce); //choose one form Techniques (ref: https://github.com/daimajia/AndroidViewAnimations)
 
@@ -45,11 +45,13 @@ public class SplashActivity extends AwesomeSplash {
         configSplash.setTitleTextSize(30f); //float value
         configSplash.setAnimTitleDuration(1000);
         configSplash.setAnimTitleTechnique(Techniques.FlipInX);
+
     }
 
     @Override
     public void animationsFinished() {
         Intent intent=new Intent(SplashActivity.this, MainActivity.class);
         startActivity(intent);
+
     }
 }
