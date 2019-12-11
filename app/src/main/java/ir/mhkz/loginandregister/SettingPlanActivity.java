@@ -12,6 +12,10 @@ import ir.mhkz.loginandsignup.R;
 
 public class SettingPlanActivity extends AppCompatActivity {
     private SubmitButton btn_sub;
+<<<<<<< HEAD
+    private String str1,str2,str3,str4;
+=======
+>>>>>>> 15375368d072effab23c61aa0e97bb956470285b
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +25,50 @@ public class SettingPlanActivity extends AppCompatActivity {
     }
     public void init(){
         btn_sub=findViewById(R.id.submitButton);
+<<<<<<< HEAD
+        final MaterialSpinner typespinner = findViewById(R.id.TypeSpinner);
+        typespinner.setItems("小学", "初中", "高中");
+        typespinner.setOnItemSelectedListener(new MaterialSpinner.OnItemSelectedListener<String>() {
+
+            @Override public void onItemSelected(MaterialSpinner view, int position, long id, String item) {
+                str1=item;
+            }
+        });
+        MaterialSpinner sumspinner = findViewById(R.id.SumSpinner);
+        sumspinner.setItems("30", "60", "90");
+        sumspinner.setOnItemSelectedListener(new MaterialSpinner.OnItemSelectedListener<String>() {
+            @Override
+            public void onItemSelected(MaterialSpinner view, int position, long id, String item) {
+                str4=item;
+            }
+        });
+        MaterialSpinner dayspinner = findViewById(R.id.DaySpinner);
+        dayspinner.setItems("15", "30", "60");
+        dayspinner.setOnItemSelectedListener(new MaterialSpinner.OnItemSelectedListener<String>() {
+            @Override
+            public void onItemSelected(MaterialSpinner view, int position, long id, String item) {
+                str2=item;
+            }
+        });
+        MaterialSpinner numberspinner = findViewById(R.id.NumberSpinner);
+        numberspinner.setItems("5", "10", "20");
+        numberspinner.setOnItemSelectedListener(new MaterialSpinner.OnItemSelectedListener<String>() {
+            @Override
+            public void onItemSelected(MaterialSpinner view, int position, long id, String item) {
+                str3=item;
+            }
+        });
+        btn_sub.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent();
+                intent.setClass(SettingPlanActivity.this,BottomNavigationActivity.class);
+                intent.putExtra("type",str1);
+                intent.putExtra("day",str2);
+                intent.putExtra("number",str3);
+                intent.putExtra("sum",str4);
+                finish();
+=======
         MaterialSpinner typespinner = findViewById(R.id.TypeSpinner);
         typespinner.setItems("小学", "初中", "高中");
         MaterialSpinner dayspinner = findViewById(R.id.DaySpinner);
@@ -31,6 +79,7 @@ public class SettingPlanActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(SettingPlanActivity.this,BottomNavigationActivity.class);
+>>>>>>> 15375368d072effab23c61aa0e97bb956470285b
                 startActivity(intent);
             }
         });

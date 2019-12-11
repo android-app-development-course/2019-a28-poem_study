@@ -84,7 +84,11 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:drawablePadding="5dip"
+<<<<<<< HEAD
+                android:drawableRight="@drawable/exam"
+=======
                 android:drawableRight="@drawable/examination"
+>>>>>>> 15375368d072effab23c61aa0e97bb956470285b
                 android:gravity="left|center_vertical"
                 android:paddingRight="15dip"
                 android:text="诗词自检"
@@ -100,7 +104,11 @@
                 android:layout_column="1"
                 android:layout_marginRight="15dp"
                 android:drawablePadding="5dip"
+<<<<<<< HEAD
+                android:drawableRight="@drawable/pratice"
+=======
                 android:drawableRight="@drawable/banked_cloze"
+>>>>>>> 15375368d072effab23c61aa0e97bb956470285b
                 android:gravity="left|center_vertical"
                 android:paddingRight="15dip"
                 android:text="选词填空"

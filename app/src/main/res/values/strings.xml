@@ -1,5 +1,9 @@
 <resources>
+<<<<<<< HEAD
+    <string name="app_name">Poem Study</string>
+=======
     <string name="app_name">易旅</string>
+>>>>>>> 15375368d072effab23c61aa0e97bb956470285b
     <string name="Username">用户名</string>
     <string name="Password">密码</string>
     <string name="RememberMe">记住密码</string>
