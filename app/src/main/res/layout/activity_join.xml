@@ -5,16 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="ir.mhkz.loginandregister.JoinActivity"
-    android:background="#fafbf5">
+    android:background="#f1f2f6">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="#f1f2f6">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:background="#f1f2f6">
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -26,7 +28,7 @@
                 android:background="@drawable/join_us_textview_cycle_shape"
                 android:text="微信搜索：“诗词APP”招聘"
                 android:layout_gravity="center"
-                android:gravity="center"/>
+                android:gravity="center" />
         </LinearLayout>
         <TextView
             android:layout_width="wrap_content"
@@ -35,14 +37,16 @@
             android:layout_marginTop="10dp"
             android:textSize="20sp"
             android:textColor="#7f8c8d"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:background="#f1f2f6"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="了解最新职位信息"
             android:textSize="20sp"
             android:textColor="#7f8c8d"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:background="#f1f2f6"/>
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
@@ -55,7 +59,8 @@
             android:text="关于我们"
             android:textSize="30sp"
             android:textColor="#000000"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:background="#f1f2f6"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -64,6 +69,7 @@
             android:layout_marginTop="20dp"
             android:text="本软件制作于2019年，以背诗词APP“诗词APP”切入了在线教育市场。"
             android:textSize="15sp"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:background="#f1f2f6"/>
     </LinearLayout>
 </RelativeLayout>

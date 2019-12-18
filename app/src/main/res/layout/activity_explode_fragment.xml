@@ -73,23 +73,25 @@
     <TableLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
+
         <TableRow>
-            <com.github.rubensousa.raiflatbutton.RaiflatButton
-                android:id="@+id/Examination_btn"
-                android:layout_column="0"
-                style="@style/Base.Widget.AppCompat.Button.Colored"
-                android:layout_width="170dp"
-                android:layout_height="100dp"
-                android:layout_alignParentLeft="true"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:drawablePadding="5dip"
-                android:drawableRight="@drawable/exam"
-                android:gravity="left|center_vertical"
-                android:paddingRight="15dip"
-                android:text="诗词自检"
-                android:textColor="@color/grey_600"
-                android:textSize="15dp" />
+
+            <!--<com.github.rubensousa.raiflatbutton.RaiflatButton-->
+                <!--android:id="@+id/Examination_btn"-->
+                <!--style="@style/Base.Widget.AppCompat.Button.Colored"-->
+                <!--android:layout_width="170dp"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_column="0"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:layout_marginRight="15dp"-->
+                <!--android:drawablePadding="5dip"-->
+                <!--android:drawableRight="@drawable/exam"-->
+                <!--android:gravity="left|center_vertical"-->
+                <!--android:paddingRight="15dip"-->
+                <!--android:text="诗词自检"-->
+                <!--android:textColor="@color/grey_600"-->
+                <!--android:textSize="15dp" />-->
 
             <com.github.rubensousa.raiflatbutton.RaiflatButton
                 android:id="@+id/Banked_cloze_btn"
@@ -98,6 +100,7 @@
                 android:layout_height="100dp"
                 android:layout_alignParentLeft="true"
                 android:layout_column="1"
+                android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:drawablePadding="5dip"
                 android:drawableRight="@drawable/pratice"
@@ -108,6 +111,7 @@
                 android:textSize="15dp" />
         </TableRow>
     </TableLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -124,21 +128,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <TableRow>
+
                 <com.github.rubensousa.raiflatbutton.RaiflatButton
                     android:id="@+id/Tang_btn"
-                    android:layout_column="0"
                     style="@style/Base.Widget.AppCompat.Button.Colored"
                     android:layout_width="170dp"
                     android:layout_height="100dp"
-                    android:text="唐诗"
-                    android:textColor="@color/grey_600"
-                    android:textSize="15dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_column="0"
                     android:layout_marginLeft="15dp"
                     android:drawablePadding="5dip"
-                    android:gravity="left|center_vertical"
                     android:drawableRight="@drawable/tang"
+                    android:gravity="left|center_vertical"
                     android:paddingRight="15dip"
-                    android:layout_alignParentLeft="true" />
+                    android:text="唐诗"
+                    android:textColor="@color/grey_600"
+                    android:textSize="15dp" />
+
                 <com.github.rubensousa.raiflatbutton.RaiflatButton
                     android:id="@+id/Song_btn"
                     android:layout_column="1"

@@ -41,11 +41,11 @@ public class MeFragment extends Fragment implements View.OnClickListener{
                 startActivity(intent1);
                 break;
             case R.id.JuniorMiddle_btn:
-                Intent intent2 = new Intent(getActivity(),ExaminationActivity.class);
+                Intent intent2 = new Intent(getActivity(),exam1Activity.class);
                 startActivity(intent2);
                 break;
             case R.id.High_btn:
-                Intent intent3 = new Intent(getActivity(),ExaminationActivity.class);
+                Intent intent3 = new Intent(getActivity(),exam2Activity.class);
                 startActivity(intent3);
                 break;
         }

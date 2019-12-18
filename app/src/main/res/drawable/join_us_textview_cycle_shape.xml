@@ -13,5 +13,5 @@
         android:color="#000000"
         android:dashGap="5dp"
         android:dashWidth="3dp"/>
-    <solid android:color="#ffffff" />
+    <solid android:color="#f1f2f6" />
 </shape>

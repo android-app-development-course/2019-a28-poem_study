@@ -26,7 +26,7 @@ public class ExplodeFragment extends Fragment implements View.OnClickListener{
     private Button tang_btn;
     private Button song_btn;
     private Button yuan_btn;
-    private Button examination_btn;
+    //private Button examination_btn;
     private Button banked_cloze_btn;
     private View mView;
     private ViewPager mViewPaper;
@@ -64,12 +64,12 @@ public class ExplodeFragment extends Fragment implements View.OnClickListener{
         tang_btn = (Button)mView.findViewById(R.id.Tang_btn);
         song_btn = (Button)mView.findViewById(R.id.Song_btn);
         yuan_btn = (Button)mView.findViewById(R.id.Yuan_btn);
-        examination_btn = (Button)mView.findViewById(R.id.Examination_btn);
+//        examination_btn = (Button)mView.findViewById(R.id.Examination_btn);
         banked_cloze_btn = (Button)mView.findViewById(R.id.Banked_cloze_btn);
         tang_btn.setOnClickListener(this);
         song_btn.setOnClickListener(this);
         yuan_btn.setOnClickListener(this);
-        examination_btn.setOnClickListener(this);
+        //examination_btn.setOnClickListener(this);
         banked_cloze_btn.setOnClickListener(this);
 
         //显示的图片
@@ -126,19 +126,19 @@ public class ExplodeFragment extends Fragment implements View.OnClickListener{
                 startActivity(intent1);
                 break;
             case R.id.Song_btn:
-                Intent intent2 = new Intent(getActivity(),ReviewActivity.class);
+                Intent intent2 = new Intent(getActivity(),Review1Activity.class);
                 startActivity(intent2);
                 break;
             case R.id.Yuan_btn:
-                Intent intent3 = new Intent(getActivity(),ReviewActivity.class);
+                Intent intent3 = new Intent(getActivity(),Review2Activity.class);
                 startActivity(intent3);
                 break;
-            case R.id.Examination_btn:
-                Intent intent4 = new Intent(getActivity(),ExaminationActivity.class);
-                startActivity(intent4);
-                break;
+//            case R.id.Examination_btn:
+//                Intent intent4 = new Intent(getActivity(),ExaminationActivity.class);
+//                startActivity(intent4);
+//                break;
             case R.id.Banked_cloze_btn:
-                Intent intent5 = new Intent(getActivity(),BankedCloze.class);
+                Intent intent5 = new Intent(getActivity(),firstTestActivity.class);
                 startActivity(intent5);
                 break;
         }

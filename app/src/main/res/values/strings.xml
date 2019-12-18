@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">易旅</string>
+    <string name="app_name">Poem Study</string>
     <string name="Username">用户名</string>
     <string name="Password">密码</string>
     <string name="RememberMe">记住密码</string>
@@ -9,4 +9,29 @@
     <string name="comfirmpassword">确认密码</string>
     <string name="SignUp">注册</string>
     <string name="registrationPage">注册页</string>
+
+    <string name="title_1">夜雨寄北\n\n唐 李商隐</string>
+    <string name="title_2">声声慢\n\n宋 李清照</string>
+    <string name="title_3">天净沙·秋思\n\n元 马致远</string>
+    <string name="title_4">念奴娇·赤壁怀古\n\n宋 苏轼</string>
+    <string name="title_5">静夜思\n\n唐 李白</string>
+    <string name="text_1">
+        君问归期未有期\n\n巴山夜雨涨秋池\n\n何当共剪西窗烛\n\n却话巴山夜雨时
+    </string>
+
+    <string name="text_2">
+        寻寻觅觅\n\n冷冷清清\n\n凄凄惨惨戚戚\n\n乍暖还寒时候\n\n最难将息
+    </string>
+
+    <string name="text_3">
+        枯藤老树昏鸦\n\n小桥流水人家\n\n古道西风瘦马\n\n夕阳西下\n\n断肠人在天涯
+    </string>
+
+    <string name="text_4">
+        大江东去\n\n浪淘尽\n\n千古风流人物\n\n故垒西边\n\n人道是\n\n三国周郎赤壁
+    </string>
+
+    <string name="text_5">
+        床前明月光\n\n疑是地上霜\n\n举头望明月\n\n低头思故乡
+    </string>
 </resources>

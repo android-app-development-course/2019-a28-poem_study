@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="ir.mhkz.loginandregister.AboutActivity"
-    android:background="#fafbf5"
+    android:background="#f1f2f6"
     android:orientation="vertical">
 
     <ImageView

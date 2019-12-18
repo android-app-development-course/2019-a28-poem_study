@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    app:cardUseCompatPadding="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:gravity="center"
+                android:textSize="28dp"
+                android:textColor="@color/black"
+                android:id="@+id/titleTextView"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:gravity="center"
+                android:textSize="24dp"
+                android:id="@+id/contentTextView"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:layout_marginTop="24dp"
+                android:textColor="@color/black" />
+
+            <com.varunest.sparkbutton.SparkButton
+                android:id="@+id/star_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center|bottom"
+                android:layout_marginTop="24dp"
+                app:sparkbutton_activeImage="@drawable/ic_star_on"
+                app:sparkbutton_animationSpeed=".85"
+                app:sparkbutton_iconSize="30dp"
+                app:sparkbutton_inActiveImage="@drawable/ic_star_off" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="top|end"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="-5dp"
+            android:src="@drawable/log" />
+
+    </FrameLayout>
+
+</android.support.v7.widget.CardView>

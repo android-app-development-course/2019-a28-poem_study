@@ -29,12 +29,15 @@ public class SettingActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent1=new Intent(SettingActivity.this,LoginActivity.class);
                 startActivity(intent1);
+                finish();
             }
         });
         btn_exit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                System.exit(0);
+                Intent intent2=new Intent(SettingActivity.this,LoginActivity.class);
+                startActivity(intent2);
+                finish();
             }
         });
         btn_about.setOnClickListener(new View.OnClickListener() {

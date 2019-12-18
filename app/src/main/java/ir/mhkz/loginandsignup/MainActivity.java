@@ -61,5 +61,6 @@ public class MainActivity extends AhoyOnboarderActivity {
     public void onFinishButtonPressed() {
         Intent intent=new Intent(MainActivity.this, LoginActivity.class);
         startActivity(intent);
+        finish();
     }
 }

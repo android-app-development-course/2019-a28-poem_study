@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context="ir.mhkz.loginandregister.FeedbackActivity"
     android:orientation="vertical"
-    android:background="#fafbf5">
+    android:background="#f1f2f6">
 
     <ImageView
         android:layout_gravity="center"
@@ -17,24 +17,25 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="10dp"
-        android:background="#ffeaa7"/>
+        android:background="#fafbf5"/>
     <EditText
         android:id="@+id/FeedBack_tv"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:hint="  请输入反馈，我们将为您不断改进"
         android:textColorHint="#b2bec3"
-        android:textSize="20sp"/>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#ffeaa7"/>
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="#ffeaa7"/>-->
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="20dp"
-        android:background="#ffeaa7"/>
+        android:background="#fafbf5"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
@@ -48,7 +49,8 @@
             android:layout_marginLeft="20dp"
             android:hint="联系方式"
             android:textColor="@color/grey_600"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textColorHint="#b2bec3"/>
 
         <EditText
             android:id="@+id/ContactInformation_tv"
@@ -58,21 +60,25 @@
             android:hint="邮箱/手机号码"
             android:textColorHint="#b2bec3"
             android:textSize="20sp"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:textColor="@color/black"/>
     </LinearLayout>
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ffeaa7"/>
+        android:background="#fafbf5"/>
+
     <Button
-        android:layout_marginTop="20dp"
+        android:id="@+id/feedback"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/setting_button_cycle_shape"
         android:text="发送"
-        android:textSize="20sp"
         android:textColor="#FFFFFF"
-        android:background="@drawable/feedback_button_cycle_shape"/>
+        android:textSize="20sp" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

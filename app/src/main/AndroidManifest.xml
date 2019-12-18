@@ -10,11 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN" />-->
 
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity android:name="ir.mhkz.loginandregister.LoginActivity" />
         <activity android:name="ir.mhkz.loginandregister.RegisterActivity" />
@@ -28,9 +30,7 @@
         <activity android:name="ir.mhkz.loginandregister.FeedbackActivity" />
         <activity android:name="ir.mhkz.loginandregister.SettingActivity" />
         <activity android:name="ir.mhkz.loginandregister.AboutActivity" />
-        <activity android:name="ir.mhkz.loginandregister.JoinActivity">
-
-        </activity>
+        <activity android:name="ir.mhkz.loginandregister.JoinActivity" />
         <activity android:name="ir.mhkz.loginandregister.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -38,7 +38,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity android:name="ir.mhkz.loginandregister.firstTestActivity" />
+        <activity android:name="ir.mhkz.loginandregister.secondTestActivity" />
+        <activity android:name="ir.mhkz.loginandregister.thirdTestActivity" />
+        <activity android:name="ir.mhkz.loginandregister.gradeActivity" />
+        <activity android:name="ir.mhkz.loginandregister.fifthActivity" />
+        <activity android:name="ir.mhkz.loginandregister.fourthActivity" />
+        <activity android:name="ir.mhkz.loginandregister.Review1Activity" />
+        <activity android:name="ir.mhkz.loginandregister.Review2Activity" />
+        <activity android:name="ir.mhkz.loginandregister.exam1Activity" />
+        <activity android:name="ir.mhkz.loginandregister.exam2Activity"></activity>
     </application>
 
 </manifest>
